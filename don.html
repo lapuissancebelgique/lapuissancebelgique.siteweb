@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soutenir l'Église — Église la Puissance Belgique</title>
+  <meta name="description" content="Soutenez l'Église la Puissance Belgique. Chaque contribution permet à notre communauté de continuer à grandir.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/nav.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header id="main-header"></header>
+
+<!-- ═══ [1] HERO COMPACT ═══ -->
+<section class="hero-compact">
+  <div style="max-width:700px;margin:0 auto;">
+    <h1 class="animate">Soutenir l'Église</h1>
+    <p class="animate animate-delay-1">Chaque contribution permet à cette communauté de continuer à grandir.</p>
+  </div>
+</section>
+
+<!-- ═══ [2] INTRO ═══ -->
+<section style="background:#ffffff;padding:80px 24px;">
+  <div style="max-width:700px;margin:0 auto;text-align:center;">
+    <p class="animate" style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:1.1rem;line-height:1.8;">L'Église la Puissance avance par la grâce de Dieu et la générosité de sa communauté. Chaque contribution, grande ou petite, permet de maintenir notre lieu de culte, soutenir nos activités et développer notre présence à Bruxelles.</p>
+  </div>
+</section>
+
+<!-- ═══ [3] MODES DE CONTRIBUTION ═══ -->
+<section style="background:#f4f4f4;padding:80px 24px;">
+  <div style="max-width:1000px;margin:0 auto;">
+    <div class="animate" style="text-align:center;margin-bottom:56px;">
+      <h2 style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:clamp(1.5rem,3vw,2rem);">Comment contribuer</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;" class="grid-2">
+
+      <!-- Carte virement bancaire -->
+      <div class="animate" style="background:#005fb5;border-radius:12px;padding:36px;color:#ffffff;">
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#ffffff;font-size:1.3rem;margin-bottom:12px;">Virement bancaire</h3>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:rgba(255,255,255,0.8);font-size:0.9rem;margin-bottom:24px;">La méthode la plus simple et directe.</p>
+        <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:28px;">
+          <div style="background:rgba(255,255,255,0.1);padding:14px 16px;border-radius:8px;">
+            <div style="font-family:'Poppins',sans-serif;font-weight:300;color:rgba(255,255,255,0.7);font-size:0.75rem;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px;">Bénéficiaire</div>
+            <!-- NOM LÉGAL : remplacer ci-dessous -->
+            <div style="font-family:'Poppins',sans-serif;font-weight:500;color:#ffffff;font-size:0.95rem;">MPNJC</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.1);padding:14px 16px;border-radius:8px;">
+            <div style="font-family:'Poppins',sans-serif;font-weight:300;color:rgba(255,255,255,0.7);font-size:0.75rem;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px;">IBAN</div>
+            <!-- IBAN : remplacer ci-dessous -->
+            <div style="font-family:'Poppins',sans-serif;font-weight:600;color:#f9df7c;font-size:0.95rem;letter-spacing:1px;">BE49 7512 1234 5871</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.1);padding:14px 16px;border-radius:8px;">
+            <div style="font-family:'Poppins',sans-serif;font-weight:300;color:rgba(255,255,255,0.7);font-size:0.75rem;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px;">BIC</div>
+            <!-- BIC : remplacer ci-dessous -->
+            <div style="font-family:'Poppins',sans-serif;font-weight:500;color:#ffffff;font-size:0.95rem;">[BIC]</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.1);padding:14px 16px;border-radius:8px;">
+            <div style="font-family:'Poppins',sans-serif;font-weight:300;color:rgba(255,255,255,0.7);font-size:0.75rem;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px;">Communication</div>
+            <div style="font-family:'Poppins',sans-serif;font-weight:500;color:#ffffff;font-size:0.95rem;">Don — [Votre prénom]</div>
+          </div>
+        </div>
+        <!-- IBAN dans onclick : remplacer [IBAN] par la vraie valeur -->
+        <button onclick="copyToClipboard('BE49 7512 1234 5871')" style="background:#f9df7c;color:#000000;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.9rem;padding:12px 24px;border-radius:6px;border:none;cursor:pointer;transition:background 0.2s;width:100%;" onmouseover="this.style.background='#e8cc6a'" onmouseout="this.style.background='#f9df7c'">
+          Copier l'IBAN
+        </button>
+        <span id="copy-feedback" style="display:block;text-align:center;font-family:'Poppins',sans-serif;font-size:0.85rem;color:#f9df7c;margin-top:8px;min-height:20px;"></span>
+      </div>
+
+      <!-- Carte paiement en ligne -->
+      <div class="animate animate-delay-1" style="background:#ffffff;border-radius:12px;padding:36px;border:2px solid #e0e0e0;display:flex;flex-direction:column;justify-content:center;">
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#005fb5;font-size:1.3rem;margin-bottom:12px;">Paiement en ligne</h3>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.9rem;line-height:1.6;margin-bottom:24px;">Disponible prochainement.</p>
+        <!-- ACTIVER APRÈS VÉRIFICATION STATUT JURIDIQUE ASBL BELGE
+             Consulter un comptable spécialisé avant toute activation.
+             Options : Stripe, PayPal, Mollie (populaire en Belgique) -->
+        <div>
+          <span style="display:inline-block;background:#e0e0e0;color:#666666;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.75rem;padding:6px 14px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px;">Bientôt disponible</span>
+        </div>
+        <p style="font-family:'Poppins',sans-serif;font-weight:300;color:#888888;font-size:0.8rem;margin-top:24px;line-height:1.6;">Cette option sera disponible après vérification du cadre juridique applicable à notre organisation.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ [4] TRANSPARENCE ═══ -->
+<section style="background:#f9df7c;padding:80px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="animate" style="text-align:center;margin-bottom:56px;">
+      <h2 style="font-family:'Poppins',sans-serif;font-weight:700;color:#000000;font-size:clamp(1.5rem,3vw,2rem);">Où vont vos dons ?</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="grid-3">
+
+      <div class="animate" style="background:#ffffff;border-radius:12px;padding:28px;display:flex;gap:20px;align-items:flex-start;">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div>
+          <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;margin-bottom:8px;">Lieu de culte</h3>
+          <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.9rem;line-height:1.6;">Loyer et entretien de notre salle de rassemblement.</p>
+        </div>
+      </div>
+
+      <div class="animate animate-delay-1" style="background:#ffffff;border-radius:12px;padding:28px;display:flex;gap:20px;align-items:flex-start;">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <div>
+          <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;margin-bottom:8px;">Familles et jeunes</h3>
+          <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.9rem;line-height:1.6;">Activités, événements et programme pour les enfants.</p>
+        </div>
+      </div>
+
+      <div class="animate animate-delay-2" style="background:#ffffff;border-radius:12px;padding:28px;display:flex;gap:20px;align-items:flex-start;">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        </div>
+        <div>
+          <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;margin-bottom:8px;">Mission</h3>
+          <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.9rem;line-height:1.6;">Évangélisation et soutien aux actions de l'église à Bruxelles.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ [5] NOTE LÉGALE ═══ -->
+<section style="background:#ffffff;padding:40px 24px;">
+  <div style="max-width:600px;margin:0 auto;text-align:center;">
+    <!-- VÉRIFIER LE STATUT JURIDIQUE AVANT TOUT APPEL PUBLIC AUX DONS.
+         Consulter : SPF Justice Belgique — federation-wallonie-bruxelles.be (section ASBL) -->
+    <p style="font-family:'Poppins',sans-serif;font-weight:300;color:#666666;font-size:0.8rem;line-height:1.7;">Les dons sont collectés dans le cadre légal belge applicable à notre organisation. Pour toute question relative à la déductibilité fiscale ou au cadre juridique, contactez-nous directement.</p>
+  </div>
+</section>
+
+<footer id="main-footer"></footer>
+
+</body>
+</html>

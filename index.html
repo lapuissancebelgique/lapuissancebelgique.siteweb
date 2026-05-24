@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Église la Puissance Belgique — Communauté chrétienne à Bruxelles</title>
+  <meta name="description" content="Église évangélique francophone à Bruxelles. Communauté de foi pour la diaspora congolaise en Belgique. Culte chaque dimanche. Première visite bienvenue.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/nav.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header id="main-header"></header>
+
+<!-- ═══ [1] HERO ═══ -->
+<section style="min-height:92vh;background:#005fb5;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
+  <!-- IMAGE DE FOND : ajouter style="background-image: url('assets/images/culte.jpg'); background-size: cover; background-position: center;" -->
+  <div style="position:absolute;inset:0;background:rgba(0,0,0,0.20);"></div>
+  <div style="position:relative;z-index:1;text-align:center;padding:40px 24px;max-width:900px;margin:0 auto;">
+    <div class="animate" style="margin-bottom:24px;">
+      <span style="background:#ff3131;color:#ffffff;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.8rem;padding:6px 16px;border-radius:20px;letter-spacing:1px;">🇧🇪 Bruxelles, Belgique</span>
+    </div>
+    <h1 class="animate animate-delay-1" style="font-family:'Poppins',sans-serif;font-weight:700;color:#ffffff;font-size:clamp(2rem,5vw,3.5rem);line-height:1.2;max-width:800px;margin:0 auto 24px;">
+      Une famille chrétienne francophone au cœur de la Belgique
+    </h1>
+    <p class="animate animate-delay-2" style="font-family:'Poppins',sans-serif;font-weight:400;color:rgba(255,255,255,0.85);font-size:1.15rem;max-width:600px;margin:0 auto 40px;line-height:1.7;">
+      Rejoins une communauté de foi et de soutien pour la diaspora congolaise et francophone en Belgique.
+    </p>
+    <div class="animate animate-delay-3" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="#info-rapide" class="btn-primary">Participer ce dimanche →</a>
+      <a href="messages.html" class="btn-secondary">Regarder un message</a>
+    </div>
+  </div>
+  <!-- Flèche scroll -->
+  <div style="position:absolute;bottom:32px;left:50%;transform:translateX(-50%);animation:bounce 2s infinite;">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f9df7c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
+  </div>
+</section>
+
+<style>
+@keyframes bounce {
+  0%,100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(10px); }
+}
+</style>
+
+<!-- ═══ [2] INFO RAPIDE ═══ -->
+<section id="info-rapide" style="background:#f9df7c;padding:24px;">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:center;" class="grid-3">
+
+    <!-- Adresse -->
+    <div class="animate" style="display:flex;align-items:flex-start;gap:12px;">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:0.9rem;margin-bottom:4px;">Adresse</div>
+        <!-- ADRESSE : remplacer ci-dessous -->
+        <a href="https://maps.google.com/?q=Chauss%C3%A9e+de+Mons+244+1070+Anderlecht" target="_blank" rel="noopener" style="font-family:'Poppins',sans-serif;font-weight:400;color:#000000;font-size:0.9rem;text-decoration:underline;">Chaussée de Mons 244, 1070 Anderlecht</a>
+      </div>
+    </div>
+
+    <!-- Horaire -->
+    <div class="animate animate-delay-1" style="display:flex;align-items:flex-start;gap:12px;">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:0.9rem;margin-bottom:4px;">Culte dominical</div>
+        <!-- HEURE : remplacer ci-dessous -->
+        <div style="font-family:'Poppins',sans-serif;font-weight:400;color:#000000;font-size:0.9rem;">Chaque dimanche de 10h00 à 12h30</div>
+      </div>
+    </div>
+
+    <!-- WhatsApp -->
+    <div class="animate animate-delay-2">
+      <!-- NUMÉRO WHATSAPP : remplacer 32493942798 -->
+      <a href="https://wa.me/32493942798" class="btn-whatsapp" style="width:100%;justify-content:center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Contacter sur WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ [3] PREMIÈRE VISITE ═══ -->
+<section style="background:#ffffff;padding:80px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="animate" style="text-align:center;margin-bottom:56px;">
+      <h2 style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:12px;">C'est votre première fois ?</h2>
+      <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:1.05rem;">Voici ce qu'il faut savoir avant de venir.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="grid-3">
+
+      <div class="card animate">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 01-8 0L3.62 3.46a2 2 0 00-1.34 2.23l.58 3.57a1 1 0 00.99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.84l.58-3.57a2 2 0 00-1.34-2.23z"/></svg>
+        </div>
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:8px;">Comment s'habiller ?</h3>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.6;">Venez comme vous êtes. Aucun code vestimentaire imposé.</p>
+      </div>
+
+      <div class="card animate animate-delay-1">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:8px;">Combien de temps ?</h3>
+        <!-- DURÉE : remplacer ci-dessous -->
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.6;">Environ 2h30. Vous pouvez partir quand vous le souhaitez.</p>
+      </div>
+
+      <div class="card animate animate-delay-2">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:8px;">Un accueil vous attend</h3>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.6;">Une équipe vous reçoit à l'entrée et vous guide.</p>
+      </div>
+
+      <div class="card animate">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:8px;">Les enfants bienvenus</h3>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.6;">Un programme dédié aux enfants pendant le culte.</p>
+      </div>
+
+      <div class="card animate animate-delay-1">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h5l2 3v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:8px;">Parking</h3>
+        <!-- PARKING : remplacer ci-dessous -->
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.6;">[À COMPLÉTER SELON SITUATION]</p>
+      </div>
+
+      <div class="card animate animate-delay-2">
+        <div style="width:48px;height:48px;background:#005fb5;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+        </div>
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:8px;">En transport</h3>
+        <!-- TRANSPORT : remplacer ci-dessous -->
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.6;">[LIGNES DE TRANSPORT À COMPLÉTER]</p>
+      </div>
+
+    </div>
+    <div class="animate" style="text-align:center;margin-top:48px;">
+      <a href="premiere-visite.html" style="background:#005fb5;color:#ffffff;font-family:'Poppins',sans-serif;font-weight:600;padding:14px 28px;border-radius:6px;text-decoration:none;font-size:1rem;transition:background 0.2s;" onmouseover="this.style.background='#004a8f'" onmouseout="this.style.background='#005fb5'">Je prépare ma visite →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ [4] TÉMOIGNAGES ═══ -->
+<section style="background:#f4f4f4;padding:80px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="animate" style="text-align:center;margin-bottom:56px;">
+      <h2 style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:clamp(1.8rem,4vw,2.5rem);">Ce que disent nos membres</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="grid-3">
+
+      <div class="card animate">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;">
+          <div style="width:60px;height:60px;border-radius:50%;background:#005fb5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+            <span style="font-family:'Poppins',sans-serif;font-weight:700;color:#ffffff;font-size:1.2rem;">MK</span>
+          </div>
+          <div>
+            <div style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;">M.K.</div>
+            <div style="font-family:'Poppins',sans-serif;font-weight:400;color:#f9df7c;font-size:0.85rem;">Arrivée en Belgique depuis 2 ans</div>
+          </div>
+        </div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:700;color:#f9df7c;font-size:3rem;line-height:0.8;margin-bottom:12px;">"</div>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;font-style:italic;color:#444444;font-size:0.95rem;line-height:1.7;">J'avais peur de venir seule. L'équipe d'accueil m'a mise à l'aise dès la porte.</p>
+      </div>
+
+      <div class="card animate animate-delay-1">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;">
+          <div style="width:60px;height:60px;border-radius:50%;background:#005fb5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+            <span style="font-family:'Poppins',sans-serif;font-weight:700;color:#ffffff;font-size:1.2rem;">JL</span>
+          </div>
+          <div>
+            <div style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;">J.L.</div>
+            <div style="font-family:'Poppins',sans-serif;font-weight:400;color:#f9df7c;font-size:0.85rem;">Père de famille</div>
+          </div>
+        </div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:700;color:#f9df7c;font-size:3rem;line-height:0.8;margin-bottom:12px;">"</div>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;font-style:italic;color:#444444;font-size:0.95rem;line-height:1.7;">Mes enfants sont pris en charge. Je vis vraiment le culte sans distraction.</p>
+      </div>
+
+      <div class="card animate animate-delay-2">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;">
+          <div style="width:60px;height:60px;border-radius:50%;background:#005fb5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+            <span style="font-family:'Poppins',sans-serif;font-weight:700;color:#ffffff;font-size:1.2rem;">AM</span>
+          </div>
+          <div>
+            <div style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;">A.M.</div>
+            <div style="font-family:'Poppins',sans-serif;font-weight:400;color:#f9df7c;font-size:0.85rem;">Étudiant à Bruxelles</div>
+          </div>
+        </div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:700;color:#f9df7c;font-size:3rem;line-height:0.8;margin-bottom:12px;">"</div>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;font-style:italic;color:#444444;font-size:0.95rem;line-height:1.7;">Je cherchais une communauté loin de chez moi. J'ai trouvé une famille.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ [5] FAQ ═══ -->
+<section style="background:#ffffff;padding:80px 24px;">
+  <div style="max-width:800px;margin:0 auto;">
+    <div class="animate" style="text-align:center;margin-bottom:56px;">
+      <h2 style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:clamp(1.8rem,4vw,2.5rem);">Questions fréquentes</h2>
+    </div>
+
+    <div class="faq-item animate" style="border-bottom:1px solid #e0e0e0;">
+      <button class="faq-question" style="display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:none;cursor:pointer;padding:20px 0;text-align:left;">
+        <span style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;">Puis-je venir même si je ne connais personne ?</span>
+        <span class="faq-icon" style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:1.5rem;margin-left:16px;flex-shrink:0;">+</span>
+      </button>
+      <div class="faq-answer">
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.7;padding-bottom:20px;">Oui. Beaucoup de nos membres ont découvert l'église seuls. L'équipe d'accueil est là pour vous recevoir.</p>
+      </div>
+    </div>
+
+    <div class="faq-item animate animate-delay-1" style="border-bottom:1px solid #e0e0e0;">
+      <button class="faq-question" style="display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:none;cursor:pointer;padding:20px 0;text-align:left;">
+        <span style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;">Dois-je être membre pour assister au culte ?</span>
+        <span class="faq-icon" style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:1.5rem;margin-left:16px;flex-shrink:0;">+</span>
+      </button>
+      <div class="faq-answer">
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.7;padding-bottom:20px;">Non. Toutes nos portes sont ouvertes. Venez autant de fois que vous le souhaitez sans aucun engagement.</p>
+      </div>
+    </div>
+
+    <div class="faq-item animate animate-delay-2" style="border-bottom:1px solid #e0e0e0;">
+      <button class="faq-question" style="display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:none;cursor:pointer;padding:20px 0;text-align:left;">
+        <span style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;">Les enfants ont-ils un programme dédié ?</span>
+        <span class="faq-icon" style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:1.5rem;margin-left:16px;flex-shrink:0;">+</span>
+      </button>
+      <div class="faq-answer">
+        <!-- À COMPLÉTER SELON RÉALITÉ DE L'ÉGLISE -->
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.7;padding-bottom:20px;">[À COMPLÉTER SELON RÉALITÉ DE L'ÉGLISE]</p>
+      </div>
+    </div>
+
+    <div class="faq-item animate animate-delay-3" style="border-bottom:1px solid #e0e0e0;">
+      <button class="faq-question" style="display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:none;cursor:pointer;padding:20px 0;text-align:left;">
+        <span style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1rem;">Dois-je participer financièrement pour assister ?</span>
+        <span class="faq-icon" style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:1.5rem;margin-left:16px;flex-shrink:0;">+</span>
+      </button>
+      <div class="faq-answer">
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;line-height:1.7;padding-bottom:20px;">Non. La participation financière n'est jamais une condition d'accès à nos cultes.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ [6] ÉVÉNEMENTS ═══ -->
+<section style="background:#005fb5;padding:80px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="animate" style="text-align:center;margin-bottom:56px;">
+      <h2 style="font-family:'Poppins',sans-serif;font-weight:700;color:#ffffff;font-size:clamp(1.8rem,4vw,2.5rem);">Ce qui arrive bientôt</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="grid-3">
+
+      <!-- Carte principale -->
+      <div class="animate" style="background:#ffffff;border-radius:12px;padding:32px;border-top:4px solid #f9df7c;">
+        <span class="badge badge-red" style="margin-bottom:16px;display:inline-block;">Chaque dimanche</span>
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:700;color:#005fb5;font-size:1.4rem;margin-bottom:16px;">Culte Dominical</h3>
+        <!-- HEURE : remplacer ci-dessous -->
+        <div style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:8px;">10h00 – 12h30</div>
+        <!-- ADRESSE : remplacer ci-dessous -->
+        <div style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.95rem;margin-bottom:24px;">Chaussée de Mons 244, 1070 Anderlecht</div>
+        <a href="premiere-visite.html" class="btn-primary" style="width:100%;text-align:center;display:block;">Planifier ma venue →</a>
+      </div>
+
+      <!-- Carte secondaire 1 -->
+      <div class="animate animate-delay-1" style="background:#ffffff;border-radius:12px;padding:28px;border-top:4px solid #005fb5;">
+        <span class="badge badge-yellow" style="margin-bottom:16px;display:inline-block;">À venir</span>
+        <!-- ÉVÉNEMENT : remplacer ci-dessous -->
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:12px;">[PROCHAIN ÉVÉNEMENT]</h3>
+        <p style="font-family:'Poppins',sans-serif;font-weight:500;color:#444444;font-size:0.9rem;margin-bottom:8px;">[DATE ET HEURE]</p>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.9rem;margin-bottom:16px;">[DESCRIPTION COURTE]</p>
+        <!-- REMPLACER PAR DONNÉES RÉELLES -->
+      </div>
+
+      <!-- Carte secondaire 2 -->
+      <div class="animate animate-delay-2" style="background:#ffffff;border-radius:12px;padding:28px;border-top:4px solid #005fb5;">
+        <span class="badge badge-yellow" style="margin-bottom:16px;display:inline-block;">À venir</span>
+        <!-- ÉVÉNEMENT : remplacer ci-dessous -->
+        <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.1rem;margin-bottom:12px;">[PROCHAIN ÉVÉNEMENT]</h3>
+        <p style="font-family:'Poppins',sans-serif;font-weight:500;color:#444444;font-size:0.9rem;margin-bottom:8px;">[DATE ET HEURE]</p>
+        <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.9rem;margin-bottom:16px;">[DESCRIPTION COURTE]</p>
+        <!-- REMPLACER PAR DONNÉES RÉELLES -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ [7] CTA FINALE ═══ -->
+<section style="background:#f9df7c;padding:80px 24px;text-align:center;">
+  <div style="max-width:700px;margin:0 auto;">
+    <h2 class="animate" style="font-family:'Poppins',sans-serif;font-weight:700;color:#000000;font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:20px;">Ta place t'attend ce dimanche.</h2>
+    <p class="animate animate-delay-1" style="font-family:'Poppins',sans-serif;font-weight:400;color:#000000;font-size:1.05rem;margin-bottom:40px;">Aucune condition. Aucun habit spécial. Viens comme tu es.</p>
+    <div class="animate animate-delay-2" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="premiere-visite.html" style="background:#005fb5;color:#ffffff;font-family:'Poppins',sans-serif;font-weight:600;padding:14px 28px;border-radius:6px;text-decoration:none;font-size:1rem;transition:background 0.2s;" onmouseover="this.style.background='#004a8f'" onmouseout="this.style.background='#005fb5'">Je viens ce dimanche →</a>
+      <!-- NUMÉRO WHATSAPP : remplacer 32493942798 -->
+      <a href="https://wa.me/32493942798" class="btn-whatsapp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer id="main-footer"></footer>
+
+</body>
+</html>

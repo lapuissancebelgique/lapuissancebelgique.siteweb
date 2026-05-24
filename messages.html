@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prédications — Église la Puissance Belgique</title>
+  <meta name="description" content="Écoute et regarde les messages et prédications de l'Église la Puissance Belgique.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/nav.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header id="main-header"></header>
+
+<!-- ═══ [1] HERO COMPACT ═══ -->
+<section class="hero-compact">
+  <div style="max-width:700px;margin:0 auto;">
+    <h1 class="animate">Prédications &amp; Enseignements</h1>
+    <p class="animate animate-delay-1">Écoute et regarde les messages de l'Église la Puissance.</p>
+  </div>
+</section>
+
+<!-- ═══ [2] FILTRES ═══ -->
+<section style="background:#ffffff;padding:32px 24px;position:sticky;top:70px;z-index:40;border-bottom:1px solid #e0e0e0;">
+  <div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;">
+    <button class="filter-btn active" data-filter="all">Tous</button>
+    <button class="filter-btn" data-filter="foi">Foi</button>
+    <button class="filter-btn" data-filter="famille">Famille</button>
+    <button class="filter-btn" data-filter="finances">Finances</button>
+    <button class="filter-btn" data-filter="jeunesse">Jeunesse</button>
+    <button class="filter-btn" data-filter="couple">Couple</button>
+    <button class="filter-btn" data-filter="encouragement">Encouragement</button>
+  </div>
+</section>
+
+<!-- ═══ [3] GRILLE SERMONS ═══ -->
+<section style="background:#f4f4f4;padding:60px 24px;">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="grid-3" id="sermons-grid">
+
+    <!-- Sermon 1 -->
+    <div class="card sermon-card animate" data-category="foi">
+      <!-- Vignette -->
+      <div style="height:180px;background:#005fb5;border-radius:8px 8px 0 0;margin:-28px -28px 20px;display:flex;align-items:center;justify-content:center;">
+        <!-- REMPLACER PAR miniature YouTube : <img src="[URL_MINIATURE]" style="width:100%;height:100%;object-fit:cover;border-radius:8px 8px 0 0;"> -->
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="#f9df7c"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="badge badge-blue">Foi</span>
+      </div>
+      <!-- DATE : remplacer ci-dessous -->
+      <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.85rem;margin-bottom:8px;">[Date]</p>
+      <!-- TITRE : remplacer ci-dessous -->
+      <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.05rem;margin-bottom:8px;">[Titre du message]</h3>
+      <!-- PASTEUR : remplacer ci-dessous -->
+      <p style="font-family:'Poppins',sans-serif;font-weight:500;color:#005fb5;font-size:0.9rem;margin-bottom:20px;">[Pasteur]</p>
+      <!-- URL_YOUTUBE : remplacer ci-dessous -->
+      <a href="[URL_YOUTUBE]" target="_blank" rel="noopener" style="display:inline-block;background:#005fb5;color:#ffffff;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.9rem;padding:10px 20px;border-radius:6px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='#004a8f'" onmouseout="this.style.background='#005fb5'">Regarder →</a>
+    </div>
+
+    <!-- Sermon 2 -->
+    <div class="card sermon-card animate animate-delay-1" data-category="famille">
+      <div style="height:180px;background:#005fb5;border-radius:8px 8px 0 0;margin:-28px -28px 20px;display:flex;align-items:center;justify-content:center;">
+        <!-- REMPLACER PAR miniature YouTube : <img src="[URL_MINIATURE]" style="width:100%;height:100%;object-fit:cover;border-radius:8px 8px 0 0;"> -->
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="#f9df7c"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="badge badge-blue">Famille</span>
+      </div>
+      <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.85rem;margin-bottom:8px;">[Date]</p>
+      <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.05rem;margin-bottom:8px;">[Titre du message]</h3>
+      <p style="font-family:'Poppins',sans-serif;font-weight:500;color:#005fb5;font-size:0.9rem;margin-bottom:20px;">[Pasteur]</p>
+      <a href="[URL_YOUTUBE]" target="_blank" rel="noopener" style="display:inline-block;background:#005fb5;color:#ffffff;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.9rem;padding:10px 20px;border-radius:6px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='#004a8f'" onmouseout="this.style.background='#005fb5'">Regarder →</a>
+    </div>
+
+    <!-- Sermon 3 -->
+    <div class="card sermon-card animate animate-delay-2" data-category="jeunesse">
+      <div style="height:180px;background:#005fb5;border-radius:8px 8px 0 0;margin:-28px -28px 20px;display:flex;align-items:center;justify-content:center;">
+        <!-- REMPLACER PAR miniature YouTube : <img src="[URL_MINIATURE]" style="width:100%;height:100%;object-fit:cover;border-radius:8px 8px 0 0;"> -->
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="#f9df7c"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="badge badge-blue">Jeunesse</span>
+      </div>
+      <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.85rem;margin-bottom:8px;">[Date]</p>
+      <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.05rem;margin-bottom:8px;">[Titre du message]</h3>
+      <p style="font-family:'Poppins',sans-serif;font-weight:500;color:#005fb5;font-size:0.9rem;margin-bottom:20px;">[Pasteur]</p>
+      <a href="[URL_YOUTUBE]" target="_blank" rel="noopener" style="display:inline-block;background:#005fb5;color:#ffffff;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.9rem;padding:10px 20px;border-radius:6px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='#004a8f'" onmouseout="this.style.background='#005fb5'">Regarder →</a>
+    </div>
+
+    <!-- Sermon 4 -->
+    <div class="card sermon-card animate" data-category="encouragement">
+      <div style="height:180px;background:#005fb5;border-radius:8px 8px 0 0;margin:-28px -28px 20px;display:flex;align-items:center;justify-content:center;">
+        <!-- REMPLACER PAR miniature YouTube : <img src="[URL_MINIATURE]" style="width:100%;height:100%;object-fit:cover;border-radius:8px 8px 0 0;"> -->
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="#f9df7c"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="badge badge-blue">Encouragement</span>
+      </div>
+      <p style="font-family:'Poppins',sans-serif;font-weight:400;color:#444444;font-size:0.85rem;margin-bottom:8px;">[Date]</p>
+      <h3 style="font-family:'Poppins',sans-serif;font-weight:600;color:#000000;font-size:1.05rem;margin-bottom:8px;">[Titre du message]</h3>
+      <p style="font-family:'Poppins',sans-serif;font-weight:500;color:#005fb5;font-size:0.9rem;margin-bottom:20px;">[Pasteur]</p>
+      <a href="[URL_YOUTUBE]" target="_blank" rel="noopener" style="display:inline-block;background:#005fb5;color:#ffffff;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.9rem;padding:10px 20px;border-radius:6px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='#004a8f'" onmouseout="this.style.background='#005fb5'">Regarder →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ [4] YOUTUBE CTA ═══ -->
+<section style="background:#005fb5;padding:80px 24px;text-align:center;">
+  <div style="max-width:600px;margin:0 auto;">
+    <h2 class="animate" style="font-family:'Poppins',sans-serif;font-weight:700;color:#ffffff;font-size:clamp(1.5rem,3vw,2rem);margin-bottom:16px;">Ne manque aucun message.</h2>
+    <p class="animate animate-delay-1" style="font-family:'Poppins',sans-serif;font-weight:400;color:rgba(255,255,255,0.85);font-size:1rem;margin-bottom:32px;">Abonne-toi à notre chaîne YouTube pour recevoir chaque prédication.</p>
+    <div class="animate animate-delay-2">
+      <!-- REMPLACER L'URL PAR L'URL RÉELLE DE VOTRE CHAÎNE -->
+      <a href="https://www.youtube.com/@evangelistechristophekapay1528" target="_blank" rel="noopener" class="btn-primary">S'abonner sur YouTube →</a>
+    </div>
+  </div>
+</section>
+
+<footer id="main-footer"></footer>
+
+<script>
+  // Filtre sermons
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.sermon-card').forEach(card => {
+        if (filter === 'all' || card.dataset.category === filter) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
